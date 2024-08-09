@@ -1,0 +1,11 @@
+steps:
+  - wait: ~
+    continue_on_failure: true
+
+  - command: .buildkite/scripts/lifecycle/post_build.sh
+    label: Post-Build
+    agents:
+      image: family/kibana-ubuntu-2004
+      imageProject: elastic-images-prod
+      provider: gcp
+      machineType: n2-standard-2

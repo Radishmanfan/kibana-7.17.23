@@ -1,0 +1,18 @@
+[[kibana-guide]]
+= Kibana Guide
+
+include::{docs-root}/shared/versions/stack/{source_branch}.asciidoc[]
+
+include::{docs-root}/shared/attributes.asciidoc[]
+
+include::user/index.asciidoc[]
+
+include::accessibility.asciidoc[]
+
+// include::migration.asciidoc[]
+
+include::CHANGELOG.asciidoc[]
+
+include::developer/index.asciidoc[]
+
+include::redirects.asciidoc[]
